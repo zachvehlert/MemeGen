@@ -1,0 +1,78 @@
+.container {
+	position: relative;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-align: center;
+	height: 300px;
+	width: 300px;
+	margin: 30px;
+}
+
+.topText {
+	position: relative;
+	font-family: 'Big Shoulders Stencil Display', cursive;
+	color: white;
+	font-size: 50px;
+	transform: translate(0%, -60%);
+}
+
+.bottomText {
+	position: relative;
+	font-family: 'Big Shoulders Stencil Display', cursive;
+	color: white;
+	font-size: 50px;
+	transform: translate(0%, 120%);
+}
+
+.image {
+	height: 300px;
+	object-fit: contain;
+}
+
+input {
+	border: none;
+	background-color: rgb(16, 86, 134);
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	height: 30px;
+}
+
+.textInput {
+	width: 400px;
+}
+
+body {
+	color: white;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	background-color: rgb(16, 86, 134);
+}
+
+h2 {
+	font-size: 50px;
+}
+
+section {
+	margin: auto;
+	width: 50%;
+	background-color: rgba(208, 221, 233, 0.651);
+	border-radius: 30px;
+}
+
+.deleteButton {
+	height: 10%;
+	width: 30%;
+	position: absolute;
+	transform: translate(-50%, 50%);
+	bottom: 50%;
+	opacity: 0%;
+	background-color: rgb(16, 86, 134);
+	color: white;
+	border: none;
+	border-radius: 5px;
+	transition: 0.5s;
+}
