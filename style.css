@@ -32,7 +32,7 @@
 
 input {
 	border: none;
-	background-color: rgb(16, 86, 134);
+	background-color: rgb(69, 134, 16);
 	color: white;
 	border-radius: 10px;
 	text-align: center;
@@ -49,7 +49,7 @@ body {
 	color: white;
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
-	background-color: rgb(16, 86, 134);
+	background-color: rgb(26, 134, 16);
 }
 
 h2 {
@@ -59,7 +59,7 @@ h2 {
 section {
 	margin: auto;
 	width: 50%;
-	background-color: rgba(208, 221, 233, 0.651);
+	background-color: rgba(113, 143, 74, 0.651);
 	border-radius: 30px;
 }
 
@@ -70,7 +70,7 @@ section {
 	transform: translate(-50%, 50%);
 	bottom: 50%;
 	opacity: 0%;
-	background-color: rgb(16, 86, 134);
+	background-color: rgb(116, 134, 16);
 	color: white;
 	border: none;
 	border-radius: 5px;
